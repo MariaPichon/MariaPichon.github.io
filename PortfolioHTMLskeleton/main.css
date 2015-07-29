@@ -1,0 +1,176 @@
+body{
+  background-color: #666666;
+  background-image: url();
+  font-family: 'Indie Flower', cursive;
+}
+header{
+  background-image: url('http://i521.photobucket.com/albums/w335/Maria_Pichon/Screen%20Shot%202015-07-27%20at%2012.32.33%20PM_zps9habsvnh.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 10px auto 0 auto;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+}
+nav{
+  padding-top: 15px;
+  padding-left: 10px;
+}
+nav li{
+  color: #FFFFFF;
+  display: inline;
+  padding-right: 20px;
+}
+h1{
+  text-align: center;
+  font-size: 300%
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0);
+  font: 80px 'ChunkFiveRegular';
+}
+.AboutMe{
+  color: #FE99CE;
+  background-color: #000000;
+  border: 10px solid #000000;
+  margin: 50px auto 0 auto;
+  width: 900px;
+
+}
+h2{
+  color: #FE99CE;
+  background-color: #000000;
+  border: 10px solid #000000;
+  margin: 50px auto 50px auto;
+  width: 900px;
+  text-align: center;
+}
+p{
+  background-color: #AAAAAA;
+  padding-bottom: 100px;
+  border: 10px solid #AAAAAA;
+  margin: 0 auto 0 auto;
+  width: 900px;
+  font-size: 20px;
+}
+h3{
+  color: #FE99CE;
+  background-color: #000000;
+  border: 10px solid #000000;
+  margin: 50px auto 0 auto;
+  width: 440px;
+  text-align: center;
+}
+h4{
+  color: #000000;
+  background-color: #DDDDDD;
+  border: 10px solid #DDDDDD;
+  margin: 50px auto 0 auto;
+  width: 440px;
+}
+h5{
+  color: #FFFFFF;
+  font-size: 20px;
+  background-color: #888888;
+  border: 10px solid #888888;
+  margin: 50px auto 0 auto;
+  width: 220px;
+}
+.bio{
+  background-color: #AAAAAA;
+  padding-bottom: 50px;
+  border: 10px solid #AAAAAA;
+  margin: 0 auto 0 auto;
+  width: 400px;
+  font-size: 20px;
+}
+.expie{
+  background-color: #AAAAAA;
+  border: 10px solid #AAAAAA;
+  margin: 0 auto 0 auto;
+  width: 440px;
+  height: 50px;
+  font-size: 20px;
+}
+.rence{
+  background-color: #888888;
+  border: 10px solid #888888;
+  margin: 0 auto 0 auto;
+  width: 440px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #888888;
+  border: 10px solid #888888;
+  margin: 0 auto 0 auto;
+  width: 440px;
+  height: 50px;
+  font-size: 20px;  
+}
+.MainPage{
+  background-color: #DDDDDD;
+  border: 10px solid #DDDDDD;
+  margin: 0 auto 0 auto;
+  width: 440px;
+  height: 50px;
+  font-size: 20px;
+}
+.MainPageBlog{
+  background-color: #AAAAAA;
+  border: 10px solid #AAAAAA;
+  margin: 0 auto 0 auto;
+  width: 440px;
+  height: 50px;
+  font-size: 20px; 
+}
+section .link{
+  color: #FFFFFF;
+  font-size: 20px;
+  background-color: #666666;
+  width: 110px;
+  background-position: bottom right;
+}
+img{
+  background-color: #AAAAAA;
+  border: 10px solid #AAAAAA;
+  margin: 0 auto 0 auto;
+  width: 440px;
+  height: 300px;
+}
+.about{
+  background-color: #AAAAAA
+}
+.projects{
+  width: 440px;
+  margin: 0 auto 0 auto;
+}
+.contactinfo{
+  list-style: none;
+  background-color: #DDDDDD;
+  width: 280px;
+  height: 150px;
+  font-size: 20px;
+}
+.contact{
+  background-color: #AAAAAA;
+  border: 10px solid #AAAAAA;
+  margin: 50px auto 50px auto;
+  width: 900px;
+}
+.socialmedia img{
+  width: 50px;
+  height: 50px;
+}
+.socialmedia{
+  margin: 40px 5px 40px 5px;
+}
+.map{
+  width: 900px;
+  background-color: #DDDDDD;
+  border: 10px solid #DDDDDD;
+  margin: 0 0 0 210px;
+}
+.aboutme{
+  display: inline;
+}
+label, input{
+  display: block;
+}
