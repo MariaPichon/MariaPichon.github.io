@@ -174,3 +174,6 @@ img{
 label, input{
   display: block;
 }
+img { 
+  border: 0; 
+}
