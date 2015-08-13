@@ -1,16 +1,13 @@
 body{
   background-color: #666666;
-  background-image: url();
   font-family: 'Indie Flower', cursive;
 }
 header{
   background-image: url('http://i521.photobucket.com/albums/w335/Maria_Pichon/Screen%20Shot%202015-07-27%20at%2012.32.33%20PM_zps9habsvnh.png');
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding: 10px auto 0 auto;
+  padding: 10px 0 0 0;
   margin: 0;
-  width: 100%;
-  height: 200px;
 }
 nav{
   padding-top: 15px;
@@ -21,20 +18,21 @@ nav li{
   display: inline;
   padding-right: 20px;
 }
-h1{
-  text-align: center;
-  font-size: 300%
-  text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
-  color: rgba(255,255,255,0);
-  font: 80px 'ChunkFiveRegular';
+nav a:link{
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
 }
-.AboutMe{
-  color: #FE99CE;
-  background-color: #000000;
-  border: 10px solid #000000;
-  margin: 50px auto 0 auto;
-  width: 900px;
-  float: center;
+nav a:visited {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+h1{
+  color: #FFF;
+  text-align: center;
+  font-size: 300%;
+  text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
 }
 h2{
   color: #FE99CE;
@@ -56,16 +54,9 @@ h3{
   color: #FE99CE;
   background-color: #000000;
   border: 10px solid #000000;
-  margin: 50px auto 0 auto;
-  width: 440px;
+  margin: 0 auto 0 auto;
+  width: 400px;
   text-align: center;
-}
-h4{
-  color: #000000;
-  background-color: #DDDDDD;
-  border: 10px solid #DDDDDD;
-  margin: 50px auto 0 auto;
-  width: 440px;
 }
 h5{
   color: #FFFFFF;
@@ -75,105 +66,166 @@ h5{
   margin: 50px auto 0 auto;
   width: 220px;
 }
-.bio{
+.container{
+  width: 900px;
+  height: 900px;
+  margin: 30px auto 0 auto;
+}
+.container img{
+  width: 440px;
+  height: 410px;
+  margin: 10px 0 10px auto;
+  float: left;
+}
+.minicontainer1{
   background-color: #AAAAAA;
-  padding-bottom: 50px;
-  border: 10px solid #AAAAAA;
-  margin: 0 auto 0 auto;
-  width: 400px;
-  font-size: 20px;
-}
-.expie{
-  background-color: #AAAAAA;
-  border: 10px solid #AAAAAA;
-  margin: 0 auto 0 auto;
   width: 440px;
-  height: 50px;
-  font-size: 20px;
+  height: 400px;
+  margin: 12px auto 10px 0;
+  float: right;
 }
-.rence{
-  background-color: #888888;
-  border: 10px solid #888888;
-  margin: 0 auto 0 auto;
-  width: 440px;
-  height: 50px;
-  font-size: 20px;
-  background-color: #888888;
-  border: 10px solid #888888;
-  margin: 0 auto 0 auto;
-  width: 440px;
-  height: 50px;
-  font-size: 20px;  
+.minicontainer1:last-of-type{
+  margin-top: 15px;
 }
-.MainPage{
-  background-color: #DDDDDD;
-  border: 10px solid #DDDDDD;
-  margin: 0 auto 0 auto;
-  width: 440px;
-  height: 50px;
-  font-size: 20px;
+.minicontainer1 p{
+  width: 420px;
+  height: 221px;
+  margin: 10px 0 10px 0;
 }
-.MainPageBlog{
-  background-color: #AAAAAA;
-  border: 10px solid #AAAAAA;
-  margin: 0 auto 0 auto;
-  width: 440px;
-  height: 50px;
-  font-size: 20px; 
-}
-section .link{
-  color: #FFFFFF;
-  font-size: 20px;
+.minicontainer1 a{
   background-color: #666666;
-  width: 110px;
-  background-position: bottom right;
+  margin: 0px auto 30px auto;
 }
-img{
+.container2{
+  width: 900px;
+  height: 680px;
+  margin: 30px auto 0 auto;
+}
+.container2 img{
+  width: 420px;
+  height: 400px;
+  margin: 20px 0 10px auto;
+}
+.minicontainer2{
+  width: 420px;
+  height: 595px;
+  margin: 12px auto 10px 0;
+  float: left;
+}
+.minicontainer2 ul{
   background-color: #AAAAAA;
-  border: 10px solid #AAAAAA;
-  margin: 0 auto 0 auto;
-  width: 440px;
-  height: 300px;
+  height: 100px;
+  margin: 0;
 }
-.about{
-  background-color: #AAAAAA
+.minicontainer2 li{
+  list-style: none;
+  padding: 5px;
+}
+.minicontainer3{
+  width: 420px;
+  height: 600px;
+  margin: 12px auto 10px 0;
+  float: right;
+}
+.minicontainer3 p{
+  width: 420px;
+  height: 15px;
+  border: 0;
+  background-color: #AAAAAA;
+  margin: 20px 0 20px 0;
+}
+.minicontainer3 p:first-of-type{
+  margin: 20px 0 10px auto;
+}
+.minicontainer3 p:last-of-type{
+  margin-bottom: 0;
+}
+.container2 a{
+  float: left;
+  padding: 10px;
+  margin: 10px 0 0 350px;
+}
+.container2 a:link{
+  color: #FE99CE;
+  background-color: #000;
+}
+.container2 a:visited{
+  color: #FE99CE;
 }
 .projects{
-  width: 440px;
-  margin: 0 auto 0 auto;
+  width: 904px;
+  height: 1400px;
+  margin: 30px auto 0 auto;
 }
-.contactinfo{
-  list-style: none;
-  background-color: #DDDDDD;
-  width: 280px;
-  height: 150px;
-  font-size: 20px;
+.projects img{
+  width: 450px;
+  height: 300px;
+  background-color: #888;
+}
+.projects p{
+  width: 430px;
+  height: 20px;
+  margin: auto;
+  text-align: center;
+}
+.pro{
+  float: left;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #000;
+}
+.ject{
+  float: right;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #000;
 }
 .contact{
   background-color: #AAAAAA;
-  border: 10px solid #AAAAAA;
-  margin: 50px auto 50px auto;
   width: 900px;
+  height: 400px;
+  margin: 30px auto 0 auto;
+}
+.info{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 10px 30px;
+  border: 2px solid #00f;
+}
+.contact ul{
+  background-color: #DDD;
+  width: 250px;
+  height: 100px;
+}
+.contact li{
+  list-style: none;
+}
+.ppl{
+  float: left;
+  display: block;
+  width: 150px;
+  height: 250px;
+  margin: 20px 50px 10px 40px;
+}
+.form{
+  float: right;
+  width: 150px;
+  display: block;
+  margin: 20px 150px 10px 0;
+}
+#Message{
+  width: 200px;
+  height: 200px;
 }
 .socialmedia img{
   width: 50px;
   height: 50px;
-}
-.socialmedia{
-  margin: 40px 5px 40px 5px;
+  margin: 50px 0 0 10px;
 }
 .map{
+  background-color: #AAAAAA;
   width: 900px;
-  background-color: #DDDDDD;
-  border: 10px solid #DDDDDD;
-  margin: 0 0 0 210px;
-}
-.aboutme{
-  display: inline;
-}
-label, input{
-  display: block;
-}
-img { 
-  border: 0; 
+  height: 150px;
+  margin: 30px auto 0 auto;
 }
