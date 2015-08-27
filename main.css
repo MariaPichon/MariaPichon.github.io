@@ -3,36 +3,38 @@ body{
   font-family: 'Indie Flower', cursive;
 }
 header{
-  background-image: url('http://i521.photobucket.com/albums/w335/Maria_Pichon/Screen%20Shot%202015-07-27%20at%2012.32.33%20PM_zps9habsvnh.png');
-  background-size: cover;
+  background-image: url('http://i521.photobucket.com/albums/w335/Maria_Pichon/pink%20clouds_zps7djxglkj.jpg');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 10px 0 0 0;
+  padding: 1% 0 0 0;
   margin: 0;
+  width: 100%;
+  height: 90%;
 }
 nav{
-  padding-top: 15px;
-  padding-left: 10px;
+  padding-top: 1%;
+  padding-left: 1%;
 }
 nav li{
-  color: #FFFFFF;
+  color: #000;
   display: inline;
-  padding-right: 20px;
+  padding-right: 5%;
 }
 nav a:link{
   font-weight: bold;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000;
 }
 nav a:visited {
   font-weight: bold;
   text-decoration: underline;
-  color: #FFFFFF;
+  color: #000;
 }
 h1{
-  color: #FFF;
+  color: #000;
   text-align: center;
   font-size: 300%;
-  text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+  text-shadow: 10px 25px 20px rgba(0,0,0,0.9), 0px 0px 30px rgba(255,255,255,0.8), 0px 0px 50px rgba(255,0,255,0.8), 0px 0px 180px rgba(255,255,255,0.3);
 }
 h2{
   color: #FE99CE;
@@ -96,6 +98,12 @@ h5{
   background-color: #666666;
   margin: 0px auto 30px auto;
 }
+.minicontainer1 a:link{
+  color: #FE99CE;
+}
+.minicontainer1 a:visited{
+  color: #FE99CE;
+}
 .container2{
   width: 900px;
   height: 680px;
@@ -132,13 +140,17 @@ h5{
   height: 15px;
   border: 0;
   background-color: #AAAAAA;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 0 0;
 }
 .minicontainer3 p:first-of-type{
   margin: 20px 0 10px auto;
 }
 .minicontainer3 p:last-of-type{
   margin-bottom: 0;
+}
+.minicontainer3 ul, li{
+  margin: 0;
+  padding: 0; 
 }
 .container2 a{
   float: left;

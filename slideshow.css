@@ -1,0 +1,100 @@
+body{
+  background-color: #666666;
+  font-family: 'Indie Flower', cursive;
+}
+header{
+  background-image: url('http://i521.photobucket.com/albums/w335/Maria_Pichon/pink%20clouds_zps7djxglkj.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 1% 0 0 0;
+  margin: 0;
+  width: 100%;
+  height: 90%;
+}
+nav{
+  padding-top: 1%;
+  padding-left: 1%;
+}
+nav li{
+  color: #000;
+  display: inline;
+  padding-right: 5%;
+}
+nav a:link{
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+nav a:visited {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #000;
+}
+h1{
+  color: #000;
+  text-align: center;
+  font-size: 300%;
+  text-shadow: 10px 25px 20px rgba(0,0,0,0.9), 0px 0px 30px rgba(255,255,255,0.8), 0px 0px 50px rgba(255,0,255,0.8), 0px 0px 180px rgba(255,255,255,0.3);
+}
+h2{
+  color: #FE99CE;
+  background-color: #000000;
+  border: 10px solid #000000;
+  margin: 50px auto 50px auto;
+  width: 900px;
+  text-align: center;
+}
+#slideshow {
+  width: 918px; height: 700px;
+  overflow-x: scroll; overflow-y: hidden;
+  margin: 100px auto 50px auto;
+  box-shadow: 0px 0px 80px #000;
+  -moz-box-shadow: 0px 0px 80px #000;
+  -webkit-box-shadow: 0px 0px 80px #000;
+}
+
+#slideshow ul {
+  width: 5000px; list-style: none; 
+  
+}
+  #slideshow ul li {
+    float: left;
+  }
+img{
+  width:918px;
+  height:550;
+}
+#slideshow-nav {
+  width: 300px; margin: 0 auto 200px auto; visibility: hidden;
+} 
+  #slideshow-nav ul {
+    list-style: none; 
+  }
+    #slideshow-nav ul li {
+      float: left; 
+    }
+      #slideshow-nav ul li a {
+        display: block; width: 30px; height: 30px;
+        float: left; margin: 0 10px;
+        background-color: #fff; text-indent: -9999px;
+        border-radius: 30px;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        box-shadow: 0px 0px 30px #000;
+        -moz-box-shadow: 0px 0px 30px #000;
+        -webkit-box-shadow: 0px 0px 30px #000;
+      }
+        #slideshow-nav ul li a:hover, #slideshow-nav ul li a.active {
+          background-color: #a89d8a;
+        }
+
+a {
+  outline: none;
+}
+a:focus {
+  background-color: #a89d8a;
+}
+p{
+  font-size: 20px;
+  text-align: center;
+}
