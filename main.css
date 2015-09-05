@@ -122,7 +122,7 @@ h5{
 }
 .minicontainer2 ul{
   background-color: #AAAAAA;
-  height: 100px;
+  height: 160px;
   margin: 0;
 }
 .minicontainer2 li{
@@ -135,27 +135,30 @@ h5{
   margin: 12px auto 10px 0;
   float: right;
 }
-.minicontainer3 p{
-  width: 420px;
-  height: 15px;
-  border: 0;
+.experience1{
   background-color: #AAAAAA;
-  margin: 20px 0 0 0;
+  margin-top: 20px;
+  height: 120px;
+  width: 410px;
+  padding-left: 5px;
+  padding-bottom: 10px;
 }
-.minicontainer3 p:first-of-type{
-  margin: 20px 0 10px auto;
+.experience1  li:first-of-type, .experience2 li:first-of-type{
+  list-style: none;
+  font-size: 20px;
 }
-.minicontainer3 p:last-of-type{
-  margin-bottom: 0;
-}
-.minicontainer3 ul, li{
-  margin: 0;
-  padding: 0; 
+.experience2{
+  background-color: #DDD;
+  margin-top: 20px;
+  height: 120px;
+  width: 410px;
+  padding-left: 5px;
+  padding-bottom: 10px;
 }
 .container2 a{
   float: left;
   padding: 10px;
-  margin: 10px 0 0 350px;
+  margin: 60px 0 0 350px;
 }
 .container2 a:link{
   color: #FE99CE;
