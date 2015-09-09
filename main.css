@@ -201,11 +201,24 @@ h5{
   height: 400px;
   margin: 30px auto 0 auto;
 }
+/*
+
+// Layout incase I want to add my address or PO Box
+
 .info{
   float: left;
   width: 300px;
   height: 250px;
   margin: 10px 10px 10px 30px;
+} 
+*/
+.info{
+  background-color: #DDD;
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 10px 30px;
+  font-size: 22px;
 }
 .contact ul{
   background-color: #DDD;
