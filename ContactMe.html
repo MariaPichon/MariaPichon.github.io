@@ -39,29 +39,39 @@
 
 
 
-    <form method="post" name="contact_form" action="mailto:'mariapichon4@gmail.com'" enctype="text/plain" class="info">
-    Your Name:
-    <input type="text" name="name">
- 
-    Email Address:
-    <input type="text" name="email">
- 
-    Message:
-    <textarea name="message"></textarea>
- 
-    <input type="submit" value="Submit">
-</form>  
-
-    <div class="socialmedia">
-
-    <!-- <a href=""><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfp1/v/t1.0-1/p160x160/1377580_10152203108461729_809245696_n.png?oh=75ef1a563bd68b0f4a8d73686bccba7c&amp;=5613067D&amp;__gda__=1448260360_9ee8de247f61300649382bc43b0cb959" alt="facebook"></a> 
-      <a href=""><img src="http://www.thestar.com/content/dam/thestar/life/technology/2012/12/05/instagram_cuts_support_for_key_twitter_integration/instagram.jpeg" alt="instagram"></a>
-    <a href=""><img src="http://the-digital-reader.com/wp-content/uploads/2015/06/TwitterBird.png" alt="twitter"></a> ...-->
-      <a href="https://www.linkedin.com/pub/maria-pichon/a0/592/a96
-      " target="_blank"><img src="http://wp2387-flywheel.netdna-ssl.com/wp-content/uploads/2013/01/linkedIn-icon-logo-vector.png" alt="linkedin"></a>
-      <!-- <a href-"http://mariapichon.tumblr.com/" target="_blank"><img src="http://www.gosocialsignals.co.uk/wp-content/uploads/2014/12/tttt.png" alt="Tumblr"></a> -->
+    <!-- <form method="post" name="contact_form" action="mailto:'mariapichon4@gmail.com'" enctype="text/plain" class="contact">
+    <div class="ppl">
+      Your Name:
+      <input type="text" name="name">
+   
+      Email Address:
+      <input type="text" name="email">
     </div>
-  </div>
+    <div class="message">
+      Message:
+      <textarea name="message"></textarea>
+      <input type="submit" value="Submit">
+    </div>
+    </form> -->
+
+  <form action="/my-handling-form-page" method="post">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_email" />
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Send your message</button>
+    </div>
+  </form>
 
   <!-- <img src="http://www.i2clipart.com/cliparts/4/3/1/3/clipart-ruffled-map-512x512-4313.png" class="map" alt="map"> -->
 
